@@ -1,0 +1,47 @@
+/* stocks.module.css */
+
+.stocks {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.stocks h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.productList {
+  list-style: none; /* Use list-style instead of list-style-type */
+  padding: 0;
+}
+
+.productItem {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.productItem:hover {
+  transform: translateY(-5px);
+}
+
+.productItem p {
+  margin: 0;
+  font-size: 20px;
+  color: #555;
+}
+
+.productItem span {
+  font-weight: bold;
+  color: #333;
+}
